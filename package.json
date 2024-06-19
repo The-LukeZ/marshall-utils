@@ -1,0 +1,14 @@
+{
+    "name": "marshall-utils",
+    "version": "1.0.0",
+    "description": "Utils for Marshall-Security",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "LukeZ <the.discord.lukez@gmail.com>",
+    "dependencies": {
+        "moment": "^2.30.1"
+    }
+}
