@@ -5,33 +5,8 @@
         "rootDir": "src",
         "lib": ["ESNext"],
         "target": "ESNext",
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
-        "declaration": true,
-        "declarationMap": true,
-        "composite": false,
-        "esModuleInterop": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-
-        "allowSyntheticDefaultImports": true,
-        "allowUnreachableCode": false,
-        "allowUnusedLabels": false,
-
-        "noUnusedLocals": true,
-        "noImplicitAny": true,
-        "noImplicitOverride": true,
-        "noImplicitThis": true,
-        "noPropertyAccessFromIndexSignature": false,
-        "noFallthroughCasesInSwitch": true,
-        "noUncheckedIndexedAccess": true,
-        "resolveJsonModule": false,
-        "useUnknownInCatchVariables": false,
-
-        "strictFunctionTypes": true,
-        "strictNullChecks": true,
-        "strictBindCallApply": true,
-        "strictPropertyInitialization": true,
-        "typeRoots": ["src/types", "node_modules/@types"]
     }
 }
