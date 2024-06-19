@@ -1,3 +1,3 @@
-import { utcnow } from "./utils/utcnow.js";
+import { utcnow } from "./utils/utcnow.ts";
 
 export default utcnow;
