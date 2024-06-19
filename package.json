@@ -10,5 +10,6 @@
     "author": "LukeZ <the.discord.lukez@gmail.com>",
     "dependencies": {
         "moment": "^2.30.1"
-    }
+    },
+    "type": "module" 
 }

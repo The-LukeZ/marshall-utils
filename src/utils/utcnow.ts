@@ -1,22 +1,20 @@
-const moment = require("moment");
+import moment from "moment";
 
 /**
  * Returns the current Datetime in UTC.
  * @returns {Date}
  */
 
-function utcnow() {
+export function utcnow(): Date {
     const utcTime = moment.utc();
     return new Date(
         Date.UTC(
             utcTime.year(),
             utcTime.month() + 1,
-            utcTime.day(),
+            utcTime.date(),
             utcTime.hour(),
             utcTime.minute(),
             utcTime.second()
         )
     );
 }
-
-module.exports = {utcnow};
