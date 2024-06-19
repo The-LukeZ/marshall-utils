@@ -1,3 +1,3 @@
-import { utcnow } from "./utils/utcnow.ts";
+import { utcnow } from "./utils/utcnow";
 
 export default utcnow;
