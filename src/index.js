@@ -1,4 +1,4 @@
-const utcnow = require('./utils/utxnow');
+const utcnow = require('./utils/utcnow');
 
 module.exports = {
   utxnow: utcnow,
